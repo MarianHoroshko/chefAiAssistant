@@ -45,3 +45,8 @@ lint:
 lint-fix:
 	npm run lint:fix
 
+# -----------------------------
+# Test
+# -----------------------------
+test-api:
+	python .\test_api_script.py 

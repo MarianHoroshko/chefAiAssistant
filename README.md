@@ -38,3 +38,27 @@ An intelligent cooking and event-planning assistant that guides you through orga
 ```bash
     make lint
 ```
+
+### How to test api
+
+1. Generate venv
+
+```bash
+    python -m venv venv  # on Windows
+    python3 -m venv venv # on Linux, Mac
+```
+
+2. Activate venv
+
+```bash
+    .\venv\Scripts\activate        # on Windows
+    source ./venv/scripts/activate # on Linux, Mac
+```
+
+3. Run
+
+```bash
+    make test-api
+```
+
+> Warning: Make sure project is running, before running tests.
